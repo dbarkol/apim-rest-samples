@@ -1,0 +1,11 @@
+@localhost = localhost:7195/api
+
+### Update api operation description
+POST http://{{localhost}}/UpdateApiOperationDescription
+Content-Type: application/json
+
+{
+    "appId": "{appId}",
+    "operationId": "{operationId}",
+    "description": "{description for operation}"
+}

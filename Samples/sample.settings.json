@@ -1,0 +1,10 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "SubscriptionId": "{azure-subscription-id}",
+        "ResourceGroup": "{azure-resource-group}",
+        "ServiceName": "{apim-service-name}",        
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+    }
+}
